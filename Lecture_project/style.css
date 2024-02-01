@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+
+#id_input{
+    margin-top: 60px;
+    /*작업 : margin-top(위 여백 추가)*/
+    color : purple;
+}
+
+#login_button{
+    width: 150px;
+    height : 40px;
+    margin-left : 100px;
+    
+    
+}
+
+#signup_button{
+    width : 150px;
+    height : 40px;
+  
+}
+
+.login_buttons{
+    display: flex;
+    text-align: center;
+    margin-top : 20px;
+}
+
+
+.login_page{
+    font-size : 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width : 500px;
+    height : 200px;
+    /*작업 : 사이즈 조정*/
+    margin : 0 auto;
+    margin-top: 40px;
+    /*작업 : margin-top(위 여백 추가)*/
+    border : 1px solid #000;
+
+}
+
+#count_button{
+    width: 400px;
+    height : 200px;
+    font-size : 40px;
+
+}
